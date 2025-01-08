@@ -1,4 +1,5 @@
 Meu Portal de Notícias
+
 Este projeto consiste em um portal de notícias com várias seções, como Esportes, Economia, Tecnologia e Entretenimento. A página foi desenvolvida com HTML e CSS, com o objetivo de criar uma estrutura de layout limpa e responsiva, semelhante a portais de notícias conhecidos.
 
 Objetivo do Exercício
