@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 20px 0;
+    color: #fff;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header .container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.articles article img:hover {
+    transform: scale(1.05);
+}
+
+.articles article {
+    width: 30%;
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    padding: 40px 0;
+    background-color: #f8f8f8;
+}
+
+section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.articles article h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #333;
+}
+
+.articles article p {
+    font-size: 16px;
+    color: #666;
+}
+
+.articles article a {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.articles article a:hover {
+    background-color: #005fa3;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 20px;
+}
+
+#sports {
+    background-color: #e1f5e1;
+}
+
+#sports .articles article a {
+    background-color: #028a02;
+}
+
+#economy {
+    background-color: #ffecd2;
+}
+
+#economy .articles article a {
+    background-color: #ff6600;
+}
+
+#technology {
+    background-color: #f2d7ff;
+}
+
+#technology .articles article a {
+    background-color: #9b59b6;
+}
+
+#entertainment {
+    background-color: #cce7ff;
+}
+
+#entertainment .articles article a {
+    background-color: #3498db;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 20px;
+    }
+    .articles article {
+        width: 48%;
+    }
+}
+
+@media (max-width: 768px) {
+    .articles article {
+        width: 100%;
+    }
+}
